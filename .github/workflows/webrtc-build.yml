@@ -25,7 +25,7 @@ on:
         type: boolean
 jobs:
   Build-Script:
-    runs-on: macos-latest
+    runs-on: self-hosted
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
